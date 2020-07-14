@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: springboot-actuator
+  output:
+    ansi:
+      enabled: always
+server:
+  port: 9993
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
